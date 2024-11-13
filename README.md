@@ -42,7 +42,7 @@ Certifique-se de ter o Java instalado em seu sistema (recomenda-se a versão 8 o
 
 # Compilação:
 
-# Compile os arquivos Java usando o comando:
+Compile os arquivos Java usando o comando:
 bash
 Copiar código
 javac Pong.java Jogador.java Inimigo.java Bola.java
