@@ -2,7 +2,7 @@
 # Ping Pong Game - Java
 Este é um simples jogo de Pong implementado em Java, utilizando a biblioteca java.awt para a interface gráfica. O jogo permite que o jogador controle uma raquete e jogue contra um inimigo controlado pelo computador. O objetivo é marcar pontos ao fazer a bola passar pela raquete do oponente. O jogo termina quando um dos jogadores atinge 10 pontos.
 
-Funcionalidades
+# Funcionalidades
 Jogador e Inimigo: O jogador controla a raquete à esquerda, enquanto o inimigo controla a raquete à direita da tela. A raquete do inimigo se move automaticamente para tentar interceptar a bola.
 Bola: A bola se move pela tela e rebate nas raquetes. Quando a bola ultrapassa uma das extremidades do campo, um ponto é atribuído ao oponente.
 Pontuação: A pontuação de cada jogador é exibida na tela. O jogo termina quando um jogador alcança 10 pontos.
