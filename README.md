@@ -7,9 +7,8 @@ Jogador e Inimigo: O jogador controla a raquete à esquerda, enquanto o inimigo 
 Bola: A bola se move pela tela e rebate nas raquetes. Quando a bola ultrapassa uma das extremidades do campo, um ponto é atribuído ao oponente.
 Pontuação: A pontuação de cada jogador é exibida na tela. O jogo termina quando um jogador alcança 10 pontos.
 Estrutura do Código
-O código está dividido em várias classes:
 
-1. Classe Pong (Principal)
+# 1.Classe Pong (Principal)
 Responsabilidade: Controla o fluxo principal do jogo, incluindo a inicialização do jogo, a criação da janela e a execução do loop principal do jogo.
 Principais Métodos:
 main: Inicia o jogo e configura a interface gráfica.
@@ -17,37 +16,45 @@ run: Responsável pelo loop de atualização e renderização do jogo.
 desenhar: Desenha o cenário, as raquetes e a bola na tela.
 atualizar: Atualiza o estado dos objetos no jogo (posição das raquetes e bola).
 keyPressed e keyReleased: Controlam os movimentos da raquete do jogador com as teclas UP e DOWN.
-2. Classe Jogador
+
+#2.Classe Jogador
 Responsabilidade: Representa a raquete do jogador e controla seus movimentos.
 Principais Métodos:
 desenhar: Desenha a raquete do jogador.
 atualizar: Atualiza a posição da raquete com base nas teclas pressionadas.
-3. Classe Inimigo
+
+#3.Classe Inimigo
 Responsabilidade: Representa a raquete do inimigo, que se move automaticamente para tentar interceptar a bola.
 Principais Métodos:
 desenhar: Desenha a raquete do inimigo.
 atualizar: Atualiza a posição da raquete do inimigo com base na posição da bola.
-4. Classe Bola
+
+#4.Classe Bola
 Responsabilidade: Controla o movimento da bola e a colisão com as raquetes.
 Principais Métodos:
 desenhar: Desenha a bola na tela.
 atualizar: Atualiza a posição da bola e verifica colisões com as raquetes. Quando a bola ultrapassa uma raquete, o placar é atualizado.
 Como Rodar o Jogo
-Pré-requisitos: Certifique-se de ter o Java instalado em seu sistema (recomenda-se a versão 8 ou superior).
 
-Compilação:
+#Pré-requisitos: 
 
-Compile os arquivos Java usando o comando:
+Certifique-se de ter o Java instalado em seu sistema (recomenda-se a versão 8 ou superior).
+
+#Compilação:
+
+#Compile os arquivos Java usando o comando:
 bash
 Copiar código
 javac Pong.java Jogador.java Inimigo.java Bola.java
-Execução:
+
+#Execução:
 
 Após compilar, execute o programa com o seguinte comando:
 bash
 Copiar código
 java Pong
-Controles:
+
+#Controles:
 
 Use as teclas UP e DOWN para mover a raquete do jogador para cima e para baixo.
 A raquete do inimigo se moverá automaticamente em direção à bola.
